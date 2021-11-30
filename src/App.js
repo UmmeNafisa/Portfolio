@@ -1,11 +1,10 @@
 import './App.css';
 import Navbar from './Pages/Navbar-header/Navbar';
 import {
-  BrowserRouter,
-  Routes,
-  Route
+  BrowserRouter as Router,
+  Switch,
+  Route,
 } from "react-router-dom";
-import Home from './Pages/Home/Home/Home';
 import About from './Pages/Home/About/About';
 import Projects from './Pages/Home/Projects/Projects';
 import Contacts from './Pages/Home/Contacts/Contacts';
@@ -15,17 +14,18 @@ function App() {
   return (
     <div >
 
-      <BrowserRouter>
-        <Navbar></Navbar>
-        <Routes>
-          {/* <Route path="/" element={<Home />}> </Route> */}
-          <Route path="/home" element={<Home />}> </Route>
-          <Route path="/about" element={<About />}> </Route>
-          <Route path="/projects" element={<Projects />}> </Route>
-          <Route path="/contact" element={<Contacts />}> </Route>
-        </Routes>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Navbar />
+          </Route>
+          <Route path="/home" >  <Navbar /> </Route>
+          <Route path="/about"> <About /> </Route>
+          <Route path="/projects" > <Projects /> </Route>
+          <Route path="/contact" > <Contacts /> </Route>
+        </Switch>
         <Footer></Footer>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

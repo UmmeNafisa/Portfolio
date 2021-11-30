@@ -7,10 +7,10 @@ import Projects from '../Projects/Projects';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <About></About>
+
+            {/* <About></About>
             <Projects></Projects>
-            <Contacts></Contacts>
+            <Contacts></Contacts> */}
         </div>
     );
 };
