@@ -1,0 +1,58 @@
+.about-bg{
+    background-image: url('../../../image/gradient-black-background-with-wavy-lines_23-2149150615.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.about-header{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+.about-who{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+}
+.profile-pic{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+ 
+}
+.horizontal-line{
+width: 12%;
+text-align: center;
+margin: auto;
+color: goldenrod;
+margin-bottom: 20px;
+}
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.typewrite-about{
+    color: goldenrod;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: start;
+   
+}
+.about-text-header{
+    text-align: start;
+    margin-left: 100px;
+}
+.about-text{
+    width: 80%;
+    text-align: start;
+    margin-left: 100px;
+    color: rgb(172, 166, 166);
+}

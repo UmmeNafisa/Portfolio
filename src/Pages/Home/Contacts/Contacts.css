@@ -1,0 +1,152 @@
+.contacts-bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.768)), url('../../../image/istockphoto-882222414-170667a.jpg');
+  
+    background-position: center;
+    width: 100%;
+    color: white;
+}
+.big-header{
+    text-align: center;
+    font-size: 100px;
+    color: rgba(53, 50, 50, 0.548);
+}
+.small-header{
+    text-align: center;
+    font-size: 45px;
+    margin-top: -105px;
+}
+.small-header span{
+    color: goldenrod;
+}
+.paragraph{
+    padding: 15px 0;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contacts-details{
+    width: 70%;
+    padding-left: 50px;
+}
+.position-relative {
+    display: flex;
+}
+
+.custom-span-contact {
+    font-weight: 600;
+    line-height: 25px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.custom-span-contact a{
+    text-decoration: none;
+    color: white;
+}
+.d-block {
+    color: rgb(194, 189, 189);
+    text-transform: uppercase;
+}
+
+/* .position-absolute {
+    position: absolute!important;
+} */
+.icons{
+    color: goldenrod;
+    font-size: 45px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.contactForm {
+    width: 80%;
+    padding-left: 50px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+.form-group input, textarea {
+    width: 80%;
+    padding: 10px;
+    background-color:  rgba(53, 50, 50, 0.548);
+    border-radius: 15px;
+    color: white;
+}
+.form-group textarea{
+    height: 120px;
+}
+.button-contact {
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1.4;
+    border-radius: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .25s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    position: relative;
+    z-index: 1;
+    padding: 16px 70px 16px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    outline: none!important;
+    cursor: pointer!important;
+    border: goldenrod 2px solid;
+    margin-bottom: 40px;
+}
+.button-contact:hover{
+    background-color: goldenrod;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.button-contact .button-contact-text {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    transition: all .3s ease-out;
+}
+.button-contact-icon {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    bottom: 0;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+
+/* media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contacts{
+    display: inline;
+}
+.big-header{
+    font-size: 75px;
+    padding-bottom: 20px;
+}
+}
