@@ -149,4 +149,7 @@
     font-size: 75px;
     padding-bottom: 20px;
 }
+.form-group input, textarea {
+    width: 100%;
+}
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
         <>
             <div className="home-bg">
                 <Grid container spacing={{ xs: 2, md: 3 }} >
-                    <Grid xs={2} md={2}>
+                    <Grid xs={12} md={2}>
                         <div class="wrapper">
                             <h1 className="header-name"> Nafisa's Portfo<span className="rest-part">lio</span></h1>
                             <div class="button">
@@ -59,7 +59,7 @@ const Navbar = () => {
 
                         </div>
                     </Grid>
-                    <Grid xs={10} md={10}>
+                    <Grid xs={12} md={10}>
                         <div className="caption">
                             <h1 className="caption-header"> I'M UMME NAFISA </h1>
                             <div className="typewrite">
