@@ -17,36 +17,44 @@ const Navbar = () => {
                         <div class="wrapper">
                             <h1 className="header-name"> Nafisa's Portfo<span className="rest-part">lio</span></h1>
                             <div class="button">
-                                <NavLink as={HashLink} to="/home">
+                                <Link to="/home">
                                     <div class="icon">
                                         <i class="fas fa-home"></i>
                                     </div>
                                     <span>Home</span>
-                                </NavLink>
+                                </Link>
                             </div>
                             <div class="button">
-                                <NavLink as={Link} to="/home#about">
+                                <HashLink to="/home#about">
                                     <div class="icon">
                                         <i class="fas fa-user"></i>
                                     </div>
                                     <span>About</span>
-                                </NavLink>
+                                </HashLink>
                             </div>
                             <div class="button">
-                                <NavLink as={HashLink} to="/home#projects">
+                                <HashLink as={HashLink} to="/home#projects">
                                     <div class="icon">
                                         <i class="fas fa-window-restore"></i>
                                     </div>
                                     <span>Projects</span>
-                                </NavLink>
+                                </HashLink>
                             </div>
                             <div class="button">
-                                <NavLink as={HashLink} to="/home#contact">
+                                <HashLink as={HashLink} to="/home#skills">
+                                    <div class="icon">
+                                        <i class="fas fa-window-restore"></i>
+                                    </div>
+                                    <span>Skills</span>
+                                </HashLink>
+                            </div>
+                            <div class="button">
+                                <HashLink as={HashLink} to="/home#contact">
                                     <div class="icon">
                                         <i class="fas fa-envelope"></i>
                                     </div>
                                     <span>Contacts</span>
-                                </NavLink>
+                                </HashLink>
                             </div>
 
                         </div>
