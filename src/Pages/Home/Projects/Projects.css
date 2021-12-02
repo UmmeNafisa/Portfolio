@@ -1,0 +1,120 @@
+.project-bg{
+  background-image: url('../../../image/Footer-Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+ padding-bottom: 100px;
+}
+.project-container{
+ 
+  
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);  
+  /* background-color: #2196F3; */
+  padding: 20px;
+  margin: 0 100px;
+  grid-row-gap: 100px;
+}
+  
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.project-img{
+  width:300px;
+  height: 400px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  width: 300px;
+  height: 400px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-image: url('../../../image/projects/realistic-polygonal-background_52683-61087.jpg');
+  width: 300px;
+  height: 400px;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.explore-btn{
+  color: goldenrod;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 30px;
+  margin: 10px 0;
+  border: 4px solid goldenrod;
+  border-left-color: orangered ;
+  border-top-left-radius: 20px;
+  border-top-color: orangered;
+  border-bottom-right-radius: 20%;
+}
+
+.explore-btn:hover{
+background-color: goldenrod ;
+color: white;
+}
+.subtitle{
+  color: rgb(241, 189, 57);
+}
+.func{
+  text-align: start;
+  margin-left: 75px;
+}
+.tool{
+  text-align: start;
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+.tools{
+  color: goldenrod;
+  background-color: honeydew;
+  padding: 5px 20px;
+  border-radius: 40%;
+  font-weight: 800;
+  font-size: 15px;
+  margin-left: 10px ;
+  border: 3px solid goldenrod;
+}
+
+.projects-pic{
+  margin-left: 20px;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+}

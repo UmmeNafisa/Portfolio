@@ -1,36 +1,32 @@
-// import React from 'react';
-// import Slider from "./swiper";
-// import './swiper.css';
-// import img from '../../../image/IMG_3730-removebg-preview.png'
+import React, { useEffect, useState } from 'react';
+import ProjectView from '../ProjectView/ProjectView';
+import './Projects.css'
+
+const Projects = () => {
+    const [data, setData] = useState([])
+    useEffect(() => {
+        fetch('/data.json')
+            .then(res => res.json())
+            .then(result => setData(result))
+    }, [])
+    return (
+        <div id="projects" className="project-bg">
+            <h1 className="about-header"> My Projects </h1>
+            <h4 className="about-who"> What I do </h4>
+            <hr className="horizontal-line" />
+
+            <div className="row">
+
+                {
+                    data.map(project => <ProjectView
+                        key={project.id} project={project}
+                    ></ProjectView>)
+                }
+            </div>
 
 
-// const Projects = () => {
-//     const settings = {
-//         effect: "coverflow",
-//         centeredSlides: true,
-//         slidesPerView: 2,
-//         coverflowEffect: {
-//             rotate: 0, // Slide rotate in degrees
-//             stretch: 40, // Stretch space between slides (in px)
-//             depth: 300, // Depth offset in px (slides translate in Z axis)
-//             modifier: 1, // Effect multipler
-//             slideShadows: false // Enables slides shadows
-//         }
-//     };
+        </div>
+    );
+};
 
-//     return (
-//         <div id="projects">
-//             <div className="slider">
-//                 <h1>Hello CodeSandbox</h1>
-//                 <h2>Start editing to see some magic happen!</h2>
-//                 <Slider settings={settings}>
-
-//                     <img src={img} alt="swipe" />
-
-//                 </Slider>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Projects;
+export default Projects;

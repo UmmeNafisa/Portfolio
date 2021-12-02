@@ -1,11 +1,12 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 import { Grid } from '@mui/material';
 import Typewriter from 'typewriter-effect';
 import About from '../Home/About/About';
 import Contacts from '../Home/Contacts/Contacts';
+import Projects from '../Home/Projects/Projects';
 
 const Navbar = () => {
 
@@ -78,7 +79,7 @@ const Navbar = () => {
                 </Grid>
             </div>
             <About></About>
-            {/* <Projects></Projects> */}
+            <Projects></Projects>
             <Contacts></Contacts>
         </>
     );
