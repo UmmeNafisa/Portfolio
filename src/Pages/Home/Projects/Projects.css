@@ -71,7 +71,20 @@
   color: white;
   transform: rotateY(180deg);
 }
+.flip-card-back p{
+color: wheat;
+font-size: small;
+}
+.flip-card-back h1{
+color: rgb(231, 196, 107);
 
+}
+.flip-card-back a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+ 
+  }
 .explore-btn{
   color: goldenrod;
   font-size: 18px;
@@ -98,18 +111,18 @@ color: white;
 }
 .tool{
   text-align: start;
-  margin-left: 75px;
   margin-bottom: 10px;
 }
 .tools{
-  color: goldenrod;
-  background-color: honeydew;
-  padding: 5px 20px;
-  border-radius: 40%;
-  font-weight: 800;
-  font-size: 15px;
+  color: rgb(252, 239, 216);
+ background-color: rgba(128, 128, 128, 0.664);
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 30%;
+  font-weight: 500;
+  font-size: 13px;
   margin-left: 10px ;
-  border: 3px solid goldenrod;
+  border: 2px solid rgba(218, 165, 32, 0.836);
 }
 
 .projects-pic{

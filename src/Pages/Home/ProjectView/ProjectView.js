@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectView = ({ project }) => {
-    const { projectName, subTitlle, img, description, tools, id } = project
+    const { projectName, subTitlle, img, description, tools, githubClientLink, githubServerLink, liveLink, id } = project
     return (
 
         <div className="flip-card">
@@ -14,6 +14,14 @@ const ProjectView = ({ project }) => {
                     <h1>{projectName}</h1>
                     <small>{subTitlle}</small>
                     <p>{description}</p>
+                    <a href={liveLink}><i class="fab fa-chrome"></i> Live link</a>
+                    <a href={githubClientLink}><i class="fab fa-github"></i> Github Client Side</a>
+                    <a href={githubServerLink}><i class="fab fa-github"></i> Github Server Side </a>
+                    <p className="tool"> {
+                        tools.map(tool =>
+                            (<button className="tools"> {tool} </button>)
+                        )
+                    } </p>
                 </div>
             </div>
             <Link to={`/project/${id}`}>

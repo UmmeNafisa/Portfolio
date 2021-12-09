@@ -8,8 +8,8 @@
         "tools": [
             "React",
             "React-Router",
-            "React-Hook-Form",
             "Bootstrap",
+            "React-Hook-Form",
             "Firebase",
             "MongoDB",
             "Node",
@@ -33,11 +33,9 @@
             "https://i.ibb.co/MNKhm8Z/Screenshot-223.png",
             "https://i.ibb.co/TWr3FsW/Screenshot-222.png"
         ],
-        "links": [
-            "https://holiday-planner-da3be.web.app/home",
-            "https://github.com/UmmeNafisa/Holiday-Planner",
-            "https://github.com/UmmeNafisa/Holiday-Planner-Server-Side"
-        ]
+        "liveLink": "https://the-toy-shop-52b81.web.app/",
+        "githubClientLink": "https://github.com/UmmeNafisa/The-Toy-Shop",
+        "githubServerLink": "https://github.com/UmmeNafisa/The-Toy-Shop-Server"
     },
     {
         "id": 2,
@@ -48,8 +46,8 @@
         "tools": [
             "React",
             "React-Router",
-            "React-Hook-Form",
             "Bootstrap",
+            "React-Hook-Form",
             "Firebase",
             "MongoDB",
             "Node",
@@ -70,23 +68,21 @@
             "https://i.ibb.co/MNKhm8Z/Screenshot-223.png",
             "https://i.ibb.co/TWr3FsW/Screenshot-222.png"
         ],
-        "links": [
-            "https://holiday-planner-da3be.web.app/home",
-            "https://github.com/UmmeNafisa/Holiday-Planner",
-            "https://github.com/UmmeNafisa/Holiday-Planner-Server-Side"
-        ]
+        "liveLink": "https://holiday-planner-da3be.web.app/home",
+        "githubClientLink": "https://github.com/UmmeNafisa/Holiday-Planner",
+        "githubServerLink": "https://github.com/UmmeNafisa/Holiday-Planner-Server-Side"
     },
     {
         "id": 3,
         "projectName": "Care Giver",
         "subTitlle": "Health service website",
         "img": "https://i.ibb.co/X2ctqhR/care-giver-d862c-web-app-i-Pad-Pro.png",
-        "description": "You can grab any kind of health service from this website, just pick one and login here and book an appoinment  ",
+        "description": "You can grab any kind of health service from this website, just pick one and login here and book an appointment  ",
         "tools": [
             "React",
             "React-Router",
-            "React-Hook-Form",
             "Bootstrap",
+            "React-Hook-Form",
             "Firebase",
             "API"
         ],
@@ -105,10 +101,7 @@
             "https://i.ibb.co/MNKhm8Z/Screenshot-223.png",
             "https://i.ibb.co/TWr3FsW/Screenshot-222.png"
         ],
-        "links": [
-            "https://holiday-planner-da3be.web.app/home",
-            "https://github.com/UmmeNafisa/Holiday-Planner",
-            "https://github.com/UmmeNafisa/Holiday-Planner-Server-Side"
-        ]
+        "liveLink": "https://care-giver-d862c.web.app/",
+        "githubClientLink": "https://github.com/UmmeNafisa/Care-Giver"
     }
 ]

@@ -18,19 +18,19 @@ const ProjectDetails = () => {
             <h4 className="subtitle"> {data.subTitlle} </h4>
             <img src={data.img} alt="" className="projects-pic" />
             {
-                data.moreImg.map(pic => <img src={pic} alt="" className="projects-pic" />)
+                data.moreImg.map(pic => (<img src={pic} alt="" className="projects-pic" />))
             }
 
 
             <p>{data.description}</p>
-            <p className="func">Funtionality: {
-                data.functionality.map(func => <ul className="func">
+            <p className="func">Functionality: {
+                data.functionality.map(func => (<ul className="func">
                     <li> {func} </li>
-                </ul>)
+                </ul>))
             } </p>
             <p className="tool">Tools: {
                 data.tools.map(tool =>
-                    <button className="tools"> {tool} </button>
+                    (<button className="tools"> {tool} </button>)
                 )
             } </p>
 

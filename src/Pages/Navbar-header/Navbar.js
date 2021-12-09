@@ -7,6 +7,7 @@ import Typewriter from 'typewriter-effect';
 import About from '../Home/About/About';
 import Contacts from '../Home/Contacts/Contacts';
 import Projects from '../Home/Projects/Projects';
+import Skills from '../Home/Skills/Skills';
 
 const Navbar = () => {
 
@@ -44,7 +45,7 @@ const Navbar = () => {
                             <div class="button">
                                 <HashLink as={HashLink} to="/home#skills">
                                     <div class="icon">
-                                        <i class="fas fa-window-restore"></i>
+                                        <i class="fas fa-chart-line"></i>
                                     </div>
                                     <span>Skills</span>
                                 </HashLink>
@@ -80,6 +81,7 @@ const Navbar = () => {
             </div>
             <About></About>
             <Projects></Projects>
+            {/* <Skills></Skills> */}
             <Contacts></Contacts>
         </>
     );
