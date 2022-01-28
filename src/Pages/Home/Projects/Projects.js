@@ -10,10 +10,10 @@ const Projects = () => {
             .then(result => setData(result))
     }, [])
     return (
-        <div id="projects" className="project-bg">
+        <div id="projects" className="about-bg">
             <h1 className="about-header"> My Projects </h1>
             <h4 className="about-who"> What I do </h4>
-            <hr className="horizontal-line" />
+            <div className='dotted-line'> -------------- </div>
 
             <div className="row">
 

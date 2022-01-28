@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
  .home-bg{    
-height: 100vh;
+  height: 700px;
   width: 100%;
   max-width: 1350px;
   place-items: center;
@@ -24,8 +24,115 @@ height: 100vh;
     font-size: 35px;
 }
 .rest-part{
-    color: red;
+    color: rgb(241, 102, 241);
 }
+
+/* neon button start  */
+.button-cm a{
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+ 
+}
+.button-cm a:hover{
+  background: white;
+  color: #050801;
+  box-shadow: 0 0 5px white,
+              0 0 25px white,
+              0 0 50px white,
+              0 0 200px white;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.button-cm a:nth-child(1){
+  filter: hue-rotate(270deg);
+}
+.button-cm a:nth-child(2){
+  filter: hue-rotate(110deg);
+}
+.button-cm a span{
+  position: absolute;
+  display: block;
+}
+.button-cm a span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,white);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+      left: -100%;
+  }
+  50%,100%{
+      left: 100%;
+  }
+}
+.button-cm a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,white);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2{
+  0%{
+      top: -100%;
+  }
+  50%,100%{
+      top: 100%;
+  }
+}
+.button-cm a span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,white);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate3{
+  0%{
+      right: -100%;
+  }
+  50%,100%{
+      right: 100%;
+  }
+}
+
+
+.button-cm a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,white);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+      bottom: -100%;
+  }
+  50%,100%{
+      bottom: 100%;
+  }
+}
+
+/* neon button end */
+
 .wrapper{
     margin: 50px 0px 0 50px;
 }
@@ -44,6 +151,7 @@ height: 100vh;
   width: 200px;
 }
 .wrapper .button .icon{
+  color: rgba(184, 33, 184, 0.87);
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -67,6 +175,9 @@ height: 100vh;
 }
 .wrapper .button:nth-child(5):hover .icon{
   background: #f12424;
+}
+.wrapper .button:nth-child(6):hover .icon{
+  background: #097e09;
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -98,6 +209,10 @@ height: 100vh;
 .wrapper .button:nth-child(5) span{
   color: #ff0000;
 }
+.wrapper .button:nth-child(6) span{
+   color: #097e09;
+   text-decoration: none;
+}
 
 .caption{
     margin: 230px 0 0 10px ;
@@ -111,7 +226,7 @@ height: 100vh;
     margin-left: 50px;
 }
 .typewrite{
-    color: goldenrod;
+    color: rgb(242, 184, 40);
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
     font-size: 55px;
@@ -119,18 +234,18 @@ height: 100vh;
     margin-bottom: 30px;
 }
 
-.button-rgl{
+/* .button-rgl{
     background-color: white;
-    border: 4px solid goldenrod;
+    border: 4px solid white;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 40%;
     padding: 20px 50px;
-    color: goldenrod;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
 }
 .button-rgl:hover{
-    background-color: goldenrod;
+    background-color: white;
     border: 4px solid white;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 40%;
@@ -139,7 +254,10 @@ height: 100vh;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
     font-size: 100;
-}
+} */
+
+
+
 .caption a{
     margin-left: 50px;
     font-size: 20px;

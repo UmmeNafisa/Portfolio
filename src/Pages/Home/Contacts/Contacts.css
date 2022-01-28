@@ -8,7 +8,7 @@
 .big-header{
     text-align: center;
     font-size: 100px;
-    color: rgba(53, 50, 50, 0.548);
+    color: rgba(94, 88, 88, 0.548);
 }
 .small-header{
     text-align: center;
@@ -16,7 +16,7 @@
     margin-top: -105px;
 }
 .small-header span{
-    color: goldenrod;
+    color: rgb(241, 102, 241);
 }
 .paragraph{
     padding: 15px 0;
@@ -25,10 +25,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-bottom: 20px;
 }
 .contacts-details{
+    margin-bottom: 80px;
     width: 70%;
     padding-left: 50px;
 }
@@ -49,16 +50,19 @@
 .d-block {
     color: rgb(194, 189, 189);
     text-transform: uppercase;
+    text-align: start;
+    
 }
 
 /* .position-absolute {
     position: absolute!important;
 } */
 .icons{
-    color: goldenrod;
+    color: rgb(241, 102, 241);
     font-size: 45px;
     padding-left: 5px;
-    padding-right: 10px;
+    padding-right: 20px;
+    
 }
 
 .contactForm {
@@ -107,11 +111,11 @@
     background-color: transparent;
     outline: none!important;
     cursor: pointer!important;
-    border: goldenrod 2px solid;
+    border: rgb(241, 102, 241) 2px solid;
     margin-bottom: 40px;
 }
 .button-contact:hover{
-    background-color: goldenrod;
+    background-color: rgb(241, 102, 241);
 }
 *, :after, :before {
     box-sizing: border-box;
@@ -136,7 +140,7 @@
     font-size: 19px;
     color: #fff;
     border-radius: 50%;
-    background-color: goldenrod;
+    background-color: rgb(241, 102, 241);
 }
 
 /* media query */

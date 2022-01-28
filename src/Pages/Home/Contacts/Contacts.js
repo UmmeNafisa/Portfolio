@@ -3,16 +3,16 @@ import './Contacts.css'
 
 const Contacts = () => {
     return (
-        <div id="contact" className="contacts-bg">
+        <div id="contact" className="about-bg">
             <h1 className="big-header"> CONTACT </h1>
             <h1 className="small-header"> GET IN <span>TOUCH</span></h1>
             <div className="contacts">
                 <div className="contacts-details" >
                     <h2>DON'T BE SHY !</h2>
                     <p className="paragraph">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
-                    <div className="open-sans-font custom-span-contact position-relative"><i class="fa fa-map position-absolute icons"></i> <p> <span className="d-block">Address Point</span> <br /> Pallabi, Mirpur, Dhaka, Bangladesh</p> </div>
-                    <div className="open-sans-font custom-span-contact position-relative"><i class="fa fa-envelope-open position-absolute icons"></i> <p> <span className="d-block">mail me</span> <br /> <a href="mailto:ummenafisa.aust@gmail.com" > ummenafisa.aust@gmail.com</a></p>  </div>
-                    <div className="open-sans-font custom-span-contact position-relative"><i class="fa fa-phone-square position-absolute icons"></i> <p> <span className="d-block">call me</span> <br /> <a href="Tel: +880-1670098731" >     +880-1670098731</a></p>  </div>
+                    <div className="open-sans-font custom-span-contact position-relative"><i class="fa fa-map position-absolute icons"></i> <p> <span className="d-block">Address Point : </span>  Pallabi, Mirpur, Dhaka, Bangladesh</p> </div>
+                    <div className="open-sans-font custom-span-contact position-relative"><i class="fa fa-envelope-open position-absolute icons"></i> <p> <span className="d-block">mail me : </span>  <a href="mailto:ummenafisa.aust@gmail.com" > ummenafisa.aust@gmail.com</a></p>  </div>
+                    <div className="open-sans-font custom-span-contact position-relative"><i class="fa fa-phone-square position-absolute icons"></i> <p> <span className="d-block">call me : </span>  <a href="Tel: +880-1670098731" >     +880-1670098731</a></p>  </div>
                 </div>
 
                 <form action="https://formsubmit.co/pappanafisa@gmail.com" method="POST" className="contactForm">

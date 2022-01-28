@@ -3,7 +3,7 @@
         "id": 1,
         "projectName": "The Toy Shop",
         "subTitlle": "Full Functional Responsive toy shop",
-        "img": "https://i.ibb.co/KrQt1g2/the-toy-shop-52b81-web-app-i-Pad-Pro-2.png",
+        "img": "https://i.ibb.co/n1GM7Cg/full-ss-of-toy-shop.png",
         "description": "Are you want to buy a Toy? Login in this web page and you can order a toy easily. You can cancel your order,you can check your order updates ",
         "tools": [
             "React",
@@ -41,7 +41,7 @@
         "id": 2,
         "projectName": "Holiday Planner ",
         "subTitlle": "Full Functional responsive tourism website",
-        "img": "https://i.ibb.co/0yCRXPn/holiday-planner-da3be-web-app-i-Pad-Pro-1.png",
+        "img": "https://i.ibb.co/fY6KwwG/full-ss-of-holiday-planner.png",
         "description": "Are you want to spend a refreshing time? you can visit here, login and book a package of trip for you easily and you can check the booking status also",
         "tools": [
             "React",
@@ -76,7 +76,7 @@
         "id": 3,
         "projectName": "Care Giver",
         "subTitlle": "Health service website",
-        "img": "https://i.ibb.co/X2ctqhR/care-giver-d862c-web-app-i-Pad-Pro.png",
+        "img": "https://i.ibb.co/vPs5L9w/full-ss-of-care-giver.png",
         "description": "You can grab any kind of health service from this website, just pick one and login here and book an appointment  ",
         "tools": [
             "React",

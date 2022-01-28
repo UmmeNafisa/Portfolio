@@ -7,29 +7,32 @@ const ProjectDetails = () => {
 
     const [data, setData] = useState([])
     useEffect(() => {
-        fetch('/data.json')
+        fetch('/json')
             .then(res => res.json())
             .then(result => setData(result[id - 1]))
     }, [])
+
+    const { projectName, subTitlle, img, description, tools, githubClientLink, githubServerLink, liveLink, moreImg, functionality } = data
     console.log(data)
+
     return (
         <div className="project-bg">
-            <h1 className="about-header"> {data.projectName} </h1>
-            <h4 className="subtitle"> {data.subTitlle} </h4>
-            <img src={data.img} alt="" className="projects-pic" />
+            <h1 className="about-header"> {projectName} </h1>
+            <h4 className="subtitle"> {subTitlle} </h4>
+            <img src={img} alt="" className="projects-pic" />
             {
-                data.moreImg.map(pic => (<img src={pic} alt="" className="projects-pic" />))
+                moreImg.map(pic => (<img src={pic} alt="" className="projects-pic" />))
             }
 
 
-            <p>{data.description}</p>
+            <p>{description}</p>
             <p className="func">Functionality: {
-                data.functionality.map(func => (<ul className="func">
+                functionality.map(func => (<ul className="func">
                     <li> {func} </li>
                 </ul>))
             } </p>
             <p className="tool">Tools: {
-                data.tools.map(tool =>
+                tools.map(tool =>
                     (<button className="tools"> {tool} </button>)
                 )
             } </p>

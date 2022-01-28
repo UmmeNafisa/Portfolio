@@ -1,5 +1,6 @@
 .about-bg{
-    background-image: url('../../../image/gradient-black-background-with-wavy-lines_23-2149150615.jpg');
+    /* background-image: url('../../../image/gradient-black-background-with-wavy-lines_23-2149150615.jpg'); */
+    background-image: radial-gradient(rgba(60, 60, 60, 0.877), rgb(24, 24, 24));
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -16,7 +17,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
     font-size: 25px;
-    color: red;
+    color: rgba(223, 47, 223, 0.87);
 }
 .profile-pic{
     width: 500px;
@@ -38,7 +39,7 @@ margin-bottom: 20px;
     align-items: center;
 }
 .typewrite-about{
-    color: goldenrod;
+    color: rgb(242, 184, 40);
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
     font-size: 30px;
