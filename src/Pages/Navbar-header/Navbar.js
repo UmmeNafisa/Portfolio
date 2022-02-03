@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Particles from "react-tsparticles";
 import './Navbar.css'
 import { Grid } from '@mui/material';
 import Typewriter from 'typewriter-effect';
@@ -9,98 +8,15 @@ import About from '../Home/About/About';
 import Contacts from '../Home/Contacts/Contacts';
 import Projects from '../Home/Projects/Projects';
 import Skills from '../Home/Skills/Skills';
+import ScrollToTop from "react-scroll-to-top";
 
 const Navbar = () => {
-    const particlesInit = (main) => {
-        console.log(main);
 
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    };
 
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
     return (
         <>
+            <ScrollToTop smooth color="rgb(241, 102, 241)" />
             <div className="home-bg">
-                {/* <Particles
-                    id="tsparticles"
-                    init={particlesInit}
-                    loaded={particlesLoaded}
-                    options={{
-
-                        fpsLimit: 40,
-                        interactivity: {
-                            events: {
-                                onClick: {
-                                    enable: true,
-                                    mode: "push",
-                                },
-                                onHover: {
-                                    enable: true,
-                                    mode: "repulse",
-                                },
-                                resize: true,
-                            },
-                            modes: {
-                                bubble: {
-                                    distance: 400,
-                                    duration: 2,
-                                    opacity: 0.8,
-                                    size: 40,
-                                },
-                                push: {
-                                    quantity: 4,
-                                },
-                                repulse: {
-                                    distance: 200,
-                                    duration: 0.4,
-                                },
-                            },
-                        },
-                        particles: {
-                            color: {
-                                value: "#ffffff",
-                            },
-                            links: {
-                                color: "#ffffff",
-                                distance: 150,
-                                enable: true,
-                                opacity: 0.5,
-                                width: 1,
-                            },
-                            collisions: {
-                                enable: true,
-                            },
-                            move: {
-                                direction: "none",
-                                enable: true,
-                                outMode: "bounce",
-                                random: false,
-                                speed: 3,
-                                straight: false,
-                            },
-                            number: {
-                                density: {
-                                    enable: true,
-                                    area: 800,
-                                },
-                                value: 20,
-                            },
-                            opacity: {
-                                value: 0.5,
-                            },
-                            shape: {
-                                type: "circle",
-                            },
-                            size: {
-                                random: true,
-                                value: 5,
-                            },
-                        },
-                        detectRetina: true,
-                    }}
-                /> */}
                 <Grid container spacing={{ xs: 2, md: 3 }} >
                     <Grid xs={12} md={2}>
                         <div class="wrapper">

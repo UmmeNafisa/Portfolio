@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './ProjectView.css'
 
 const ProjectView = ({ project }) => {
-    const { projectName, subTitlle, img, description, tools, githubClientLink, githubServerLink, liveLink, id } = project
+    const { projectName, subTitlle, img, description, tools, githubClientLink, githubServerLink, liveLink } = project
     return (
         <>
             <div>

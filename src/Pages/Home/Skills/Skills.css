@@ -3,4 +3,22 @@
     grid-template-columns: repeat(4,1fr);
     color: honeydew;
     padding-bottom: 50px;
+    margin: auto;
+    margin-left: 100px;
+}
+
+/* media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .skill-chart{
+      
+        grid-template-columns: repeat(1,1fr); 
+    }
+
+}
+/* Tablet screen */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .skill-chart{
+        grid-template-columns: repeat(2,1fr); 
+    }
 }

@@ -5,10 +5,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
  .home-bg{    
   height: 700px;
   width: 100%;
-  max-width: 1350px;
+  max-width: 1366px;
   place-items: center;
   background-image:  url('../../image/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg');
   background-position: center;
@@ -111,8 +112,6 @@
       right: 100%;
   }
 }
-
-
 .button-cm a span:nth-child(4){
   bottom: -100%;
   left: 0;
@@ -211,12 +210,10 @@
 }
 .wrapper .button:nth-child(6) span{
    color: #097e09;
-   text-decoration: none;
 }
 
 .caption{
     margin: 230px 0 0 10px ;
-
 }
 .caption-header{
     color: #fff;
@@ -233,46 +230,23 @@
     margin-left: 50px;
     margin-bottom: 30px;
 }
-
-/* .button-rgl{
-    background-color: white;
-    border: 4px solid white;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    padding: 20px 50px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 900;
-}
-.button-rgl:hover{
-    background-color: white;
-    border: 4px solid white;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    padding: 20px 50px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 900;
-    font-size: 100;
-} */
-
-
-
 .caption a{
     margin-left: 50px;
     font-size: 20px;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 
 /* media query */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .home-bg{    
+    height: 880px;
+    width: 100%;
+  }
   .wrapper .button{
     display: inline-block;
     height: 50px;
     width: 50px;
-    float: left;
   }
   .wrapper .button .icon{
     height: 50px;

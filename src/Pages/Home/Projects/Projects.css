@@ -8,12 +8,6 @@
 }
 
 .row{
-  /* display: grid;
-  grid-template-columns: repeat(3,1fr);   */
-  /* background-color: #2196F3; */
-  /* padding: 20px;
-  margin: 0 100px;
-  grid-row-gap: 100px; */
    width:  1200px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -48,16 +42,11 @@
   .row .box:hover{
       background-position: bottom;
   }
-
-
-
-
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
   margin-left: 25px;
-  /* border: 1px solid #f1f1f1; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -70,10 +59,7 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.project-img{
-  width:300px;
-  height: 400px;
-}
+
 
 /* Do an horizontal flip when you move the mouse over the flip box row */
 .flip-card:hover .flip-card-inner {
@@ -101,28 +87,10 @@
   transform: rotateY(180deg);
 }
 .flip-card-front p{
-color: rgb(155, 152, 152);
+color: rgb(194, 191, 191);
 font-size: small;
 }
 
-
-/* .explore-btn{
-  color: goldenrod;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 5px 30px;
-  margin: 10px 0;
-  border: 4px solid goldenrod;
-  border-left-color: orangered ;
-  border-top-left-radius: 20px;
-  border-top-color: orangered;
-  border-bottom-right-radius: 20%;
-}
-
-.explore-btn:hover{
-background-color: goldenrod ;
-color: white;
-} */
 .subtitle{
   color: rgb(241, 189, 57);
 }
@@ -159,8 +127,43 @@ margin-top: 5px;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .row{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);     
+      width: 100%;
+       grid-template-columns: repeat(1,1fr);
+       padding: 50px 0px;
+       margin: auto;
+       margin-left: 0 ;
   }
+  .row .box{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    }
+    .flip-card {
+      margin-left: 0px;
+    margin: auto; 
+    }
+}
 
+/* Tablet screen */
+@media only screen and (min-width:689px) and (max-width:992px) {
+  .row{
+    width:  100%;
+     grid-template-columns: repeat(1,1fr);
+     margin: auto;
+     padding: auto;
+     text-align: center;
+}
+.row .box{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  }
+  .flip-card {
+    margin-left: 0px;
+  margin: auto;
+    width: 300px;
+    height: 200px;
+   
+   
+  }
 }

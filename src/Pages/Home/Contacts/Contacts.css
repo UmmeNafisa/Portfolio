@@ -1,10 +1,4 @@
-.contacts-bg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.768)), url('../../../image/istockphoto-882222414-170667a.jpg');
-  
-    background-position: center;
-    width: 100%;
-    color: white;
-}
+
 .big-header{
     text-align: center;
     font-size: 100px;
@@ -19,7 +13,10 @@
     color: rgb(241, 102, 241);
 }
 .paragraph{
-    padding: 15px 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: antiquewhite;
 }
 .contacts{
     display: flex;
@@ -29,12 +26,13 @@
     padding-bottom: 20px;
 }
 .contacts-details{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     width: 70%;
     padding-left: 50px;
 }
 .position-relative {
     display: flex;
+    align-items: center;
 }
 
 .custom-span-contact {
@@ -50,7 +48,7 @@
 .d-block {
     color: rgb(194, 189, 189);
     text-transform: uppercase;
-    text-align: start;
+
     
 }
 
@@ -59,8 +57,8 @@
 } */
 .icons{
     color: rgb(241, 102, 241);
-    font-size: 45px;
-    padding-left: 5px;
+    font-size: 40px;
+    padding-left: 25px;
     padding-right: 20px;
     
 }
@@ -150,10 +148,23 @@
     display: inline;
 }
 .big-header{
-    font-size: 75px;
-    padding-bottom: 20px;
+    font-size: 70px;
+    padding-bottom: 30px;
 }
 .form-group input, textarea {
     width: 100%;
 }
+.icons{
+    font-size: 30px;
+    padding-left: 0px;   
+    padding-right: 0; 
+}
+}
+/* Tablet screen */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .icons{
+        font-size: 35px;
+        padding-left: 0px;   
+        padding-right: 0; 
+    }
 }

@@ -38,7 +38,6 @@
     width: 200px;
   }
   .wrapper-footer .button .icon{
-    color: rgb(241, 102, 241);
     display: inline-block;
     height: 60px;
     width: 60px;
@@ -59,6 +58,7 @@
   }
  
   .wrapper-footer .button .icon i{
+    color: rgba(184, 33, 184, 0.87);
     font-size: 25px;
     line-height: 60px;
     transition: all 0.3s ease-out;
@@ -73,7 +73,7 @@
     margin-left: 10px;
     transition: all 0.3s ease-out;
   }
-  .wrapper-footer .button:nth-child(1) span{
+  .wrapper-footer .button:nth-child(1) .icon{
     color: #1DA1F2;
   }
   .wrapper-footer .button:nth-child(2) span{

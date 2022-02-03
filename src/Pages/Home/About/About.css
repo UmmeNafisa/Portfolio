@@ -80,7 +80,26 @@ margin-bottom: 20px;
         width: 80%;
         margin: auto;
         padding-bottom: 40px; 
-        color: rgb(223, 220, 220); 
-        font-weight: 500;
+    }
+}
+
+/* Tablet screen */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .profile-pic{
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .about-section{
+        justify-content: center;
+    }
+    .about-text{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 40px; 
+        margin-right: 50px;
+    
     }
 }

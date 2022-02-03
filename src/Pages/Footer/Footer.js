@@ -1,12 +1,11 @@
 import React from 'react';
 import './Footer.css'
-import codewar from '../../image/logo.png'
+
 
 const Footer = () => {
     return (
         <div className="footer-bg">
             <h2 className="profile-header">Profiles</h2>
-
             <div class="wrapper-footer">
                 <div class="button">
                     <div class="icon">
